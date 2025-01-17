@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Lenny Chester",
+        "givenreview": 5.0,
+        "image": "/images/user-avatar-1.png",
+        "text": " It was very easy for me. I gave the work and he did it. Without incomprehension, he did what I asked. Highly recommend."
+    },
+    {
+        "id": 2,
+        "name": "Christian Watson",
+        "givenreview": 5.0,
+        "image": "/images/user-avatar-2.png",
+        "text": "Working with Vulovic is very good experience for me. He’s a good person. If I need developer in future, I’ll definately hire him."
+    },
+    {
+        "id": 3,
+        "name": "Kamil Sierant",
+        "givenreview": 5.0,
+        "image": "/images/user-avatar-3.png",
+        "text": "Working with Dimitrijie has been an exceptional experience. Their insights and understanding of the project were spot on, and they exceeded all my expectations. Will definitely hire again"
+    },
+    {
+        "id": 4,
+        "name": "Maggie Curran",
+        "givenreview": 5.0,
+        "image": "/images/user-avatar-4.png",
+        "text": "He delivered a great project plan and dashboard to my specifications. I love the look and feel both professionally visual and detailed for PMO needs. On time delivery, great communication. Highly recommend and will use again in future. "
+    },
+    {
+        "id": 5,
+        "name": "Lorenzo Harry",
+        "givenreview": 5.0,
+        "image": "/images/user-avatar-5.png",
+        "text": "The collaboration was excellent. It delivered around 9-10X ROAS for us, and they were very active, providing weekly reports. I highly recommend them!"
+    }
+]

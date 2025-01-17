@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "title": "Bachelor of Technology (BTech)",
+        "meta": "Univerzitet u Novom Sadu.",
+        "text": "Web Development, Webflow, UX|UI, Responsive Design, HTML, CSS, Javascript,Python. SQL, NoSQL",
+        "year": "2019 - 2022"
+    },
+    {
+        "id": 2,
+        "title": "Bachelor of Laws (LLB)",
+        "meta": "Univerzitet u Novom Sadu.",
+        "text": "React, Node.js, Express.js, Next.js, MongoDB, PostgreSQL, Django, BLockchain, Solana, Etherium, CryptoCurrency, AI, ChatGPT4 ",
+        "year": "2021 - Current"
+    }
+]

@@ -1,0 +1,267 @@
+[
+    {
+        "id": 1,
+        "title": "Bloom",
+        "subtitle": "Zero Waste Beauty",
+        "coverimage": "/images/portfolios/bloom.jpg",
+        "imagegallery": [
+            "/images/portfolios/bloom1.jpg",
+            "/images/portfolios/bloom2.jpg",
+            "/images/portfolios/bloom3.jpg",
+            "/images/portfolios/bloom4.jpg",
+            "/images/portfolios/bloom5.jpg",
+            "/images/portfolios/bloom6.jpg",
+            "/images/portfolios/bloom7.jpg"
+        ],
+        "videogallery": false,
+        "url": "https://www.bloomrefill.com/",
+        "filters": [
+            "uiux",
+            "wordpress"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Bossu",
+        "subtitle": "Bossu | Buy & Sell Your Game",
+        "coverimage": "/images/portfolios/boss.jpg",
+        "imagegallery": [
+            "/images/portfolios/boss1.jpg",
+            "/images/portfolios/boss2.jpg",
+            "/images/portfolios/boss3.jpg",
+            "/images/portfolios/boss4.jpg"
+        ],
+        "videogallery": false,
+        "url": "https://bossustore.com/",
+        "filters": [
+            "html",
+            "wordpress"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "ClassyClosets",
+        "subtitle": "Your Nearest Classy Closets Showroom",
+        "coverimage": "/images/portfolios/closet.jpg",
+        "imagegallery": [
+            "/images/portfolios/closet1.jpg",
+            "/images/portfolios/closet2.jpg",
+            "/images/portfolios/closet3.jpg"
+        ],
+        "videogallery": false,
+        "url": "https://classyclosets.com/",
+        "filters": [
+            "react",
+            "node"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Culligan water you love",
+        "subtitle": "Your Partner for Better Water",
+        "coverimage": "/images/portfolios/culligan.jpg",
+        "imagegallery": [
+            "/images/portfolios/culligan1.jpg",
+            "/images/portfolios/culligan2.jpg",
+            "/images/portfolios/culligan3.jpg",
+            "/images/portfolios/culligan4.jpg",
+            "/images/portfolios/culligan5.jpg",
+            "/images/portfolios/culligan6.jpg"
+        ],
+        "videogallery": false,
+        "url": "https://www.culligan.com/",
+        "filters": [
+            "react",
+            "node"
+        ]
+    },
+    {
+        "id": 5,
+        "title": "The Deal Depot",
+        "subtitle": "Your Key to Exclusive Off-Market Real Estate Deals",
+        "coverimage": "/images/portfolios/deal.jpg",
+        "imagegallery": [
+            "/images/portfolios/deal.jpg",
+            "/images/portfolios/deal1.jpg"
+        ],
+        "videogallery": false,
+        "url": "https://www.dealdepot.biz/",
+        "filters": [
+            "react",
+            "uiux"
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Jewellery",
+        "subtitle": "Jewellery shop",
+        "coverimage": "/images/portfolios/jewellery.jpg",
+        "imagegallery": [
+            "/images/portfolios/jewellery1.jpg",
+            "/images/portfolios/jewellery2.jpg",
+            "/images/portfolios/jewellery3.jpg",
+            "/images/portfolios/jewellery4.jpg",
+            "/images/portfolios/jewellery5.jpg"
+        ],
+        "videogallery": false,
+        "url": "https://aurumoasis.mu/",
+        "filters": [
+            "wordpress",
+            "html"
+        ]
+    },
+    {
+        "id": 7,
+        "title": "LeaseLock",
+        "subtitle": "LeaseLock",
+        "coverimage": "/images/portfolios/lease.jpg",
+        "imagegallery": [
+            "/images/portfolios/lease1.jpg",
+            "/images/portfolios/lease2.jpg",
+            "/images/portfolios/lease3.jpg",
+            "/images/portfolios/lease4.jpg",
+            "/images/portfolios/lease5.jpg",
+            "/images/portfolios/lease6.jpg"
+        ],
+        "videogallery": false,
+        "url": "https://leaselock.com/",
+        "filters": [
+            "Wordpress",
+            "html"
+        ]
+    },
+    {
+        "id": 8,
+        "title": "Le-Mugs",
+        "subtitle": "Le-Mugs",
+        "coverimage": "/images/portfolios/le-mug.jpg",
+        "imagegallery": [
+            "/images/portfolios/le-mug1.jpg",
+            "/images/portfolios/le-mug2.jpg",
+            "/images/portfolios/le-mug3.jpg",
+            "/images/portfolios/le-mug4.jpg",
+            "/images/portfolios/le-mug5.jpg",
+            "/images/portfolios/le-mug6.jpg"
+        ],
+        "videogallery": false,
+        "url": "https://le-mugs.com/",
+        "filters": [
+            "Wordpress",
+            "uiux"
+        ]
+    },
+    {
+        "id": 9,
+        "title": "Meaningfulescapes",
+        "subtitle": "Meaningfulescapes",
+        "coverimage": "/images/portfolios/meaningfule.jpg",
+        "imagegallery": [
+            "/images/portfolios/meaningfule1.jpg",
+            "/images/portfolios/meaningfule2.jpg",
+            "/images/portfolios/meaningfule3.jpg",
+            "/images/portfolios/meaningfule4.jpg",
+            "/images/portfolios/meaningfule5.jpg"
+        ],
+        "videogallery": false,
+        "url": "https://www.meaningfulescapes.com/",
+        "filters": [
+            "uiux",
+            "react"
+        ]
+    },
+    {
+        "id": 10,
+        "title": "Moniwave",
+        "subtitle": "Moniwave",
+        "coverimage": "/images/portfolios/moniwave.jpg",
+        "imagegallery": [
+            "/images/portfolios/moniwave1.jpg",
+            "/images/portfolios/moniwave2.jpg",
+            "/images/portfolios/moniwave3.jpg",
+            "/images/portfolios/moniwave4.jpg"
+        ],
+        "videogallery": false,
+        "url": "https://web.moniwave.com/",
+        "filters": [
+            "uiux",
+            "html"
+        ]
+    },
+    {
+        "id": 11,
+        "title": "Mosaic",
+        "subtitle": "Mosaic",
+        "coverimage": "/images/portfolios/mosai.jpg",
+        "imagegallery": [
+            "/images/portfolios/mosai1.jpg",
+            "/images/portfolios/mosai2.jpg",
+            "/images/portfolios/mosai3.jpg",
+            "/images/portfolios/mosai4.jpg",
+            "/images/portfolios/mosai5.jpg",
+            "/images/portfolios/mosai6.jpg"
+        ],
+        "videogallery": false,
+        "url": "https://mosaichomes.com/",
+        "filters": [
+            "Wordpress",
+            "uiux"
+        ]
+    },
+    {
+        "id": 12,
+        "title": "Natural Care",
+        "subtitle": "Natural Careshop",
+        "coverimage": "/images/portfolios/natural.jpg",
+        "imagegallery": [
+            "/images/portfolios/natural1.jpg",
+            "/images/portfolios/natural2.jpg",
+            "/images/portfolios/natural3.jpg",
+            "/images/portfolios/natural4.jpg"
+        ],
+        "videogallery": false,
+        "url": "https://www.naturalcareshop.ro/",
+        "filters": [
+            "html",
+            "uiux"
+        ]
+    },
+    {
+        "id": 13,
+        "title": "PlaylistPush",
+        "subtitle": "Real Music Promotion",
+        "coverimage": "/images/portfolios/playlist.jpg",
+        "imagegallery": [
+            "/images/portfolios/playlist1.jpg",
+            "/images/portfolios/playlist2.jpg",
+            "/images/portfolios/playlist3.jpg",
+            "/images/portfolios/playlist4.jpg",
+            "/images/portfolios/playlist5.jpg",
+            "/images/portfolios/playlist6.jpg"
+        ],
+        "videogallery": false,
+        "url": "https://playlistpush.com/",
+        "filters": [
+            "uiux",
+            "html"
+        ]
+    },
+    {
+        "id": 14,
+        "title": "HillTop",
+        "subtitle": "Wellness Retreat Destination",
+        "coverimage": "/images/portfolios/yoga.jpg",
+        "imagegallery": [
+            "/images/portfolios/yoga1.jpg",
+            "/images/portfolios/yoga2.jpg",
+            "/images/portfolios/yoga3.jpg",
+            "/images/portfolios/yoga4.jpg",
+            "/images/portfolios/yoga5.jpg"
+        ],
+        "videogallery": false,
+        "url": "https://www.hilltopwellnessresort.com/",
+        "filters": [
+            "Wordpress",
+            "html"
+        ]
+    }
+]
