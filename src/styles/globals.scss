@@ -1,0 +1,694 @@
+/*
+ ************************************************************************
+ *
+ * Template Name: Bieber - React Personal Portfolio Template   
+ * Template URI: https://themeforest.net/item/bieber-react-personal-portfolio-template/39171447
+ * Description: Bieber - is a creative personal portfolio React template build with NextJS and Tailwindcss.
+ * Author: Nuclear_Themes
+ * Author URI: https://themeforest.net/user/nuclear_themes
+ * Version: 2.0.0
+ *
+ ************************************************************************
+ */
+
+/************ TABLE ************
+    1. Typography
+    2. Form Styles
+    3. Custom components
+    4. Utilities
+    5. Animations
+    6. Swiper Slider
+    7. Nprogress
+    8. Header & Menus
+    9. Herosection & Breadcrumb
+    10. Circle Progress
+    11. Service
+    12. Blurred variation
+    13. Client
+    14. Fullscreen menu
+*********** END TABLE **********/
+
+@import url("https://fonts.googleapis.com/css2?family=Radio+Canada:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	// Typography
+
+	*,
+	*::before,
+	*::after {
+		@apply m-0 box-border p-0;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+		font-smoothing: antialiased;
+	}
+
+	*::selection {
+		@apply bg-primary text-grey;
+	}
+	*::-moz-selection {
+		@apply bg-primary text-grey;
+	}
+
+	*::-webkit-scrollbar-track {
+		border-radius: 10px;
+		background-color: #383838;
+	}
+
+	*::-webkit-scrollbar {
+		width: 8px;
+		background-color: #383838;
+	}
+
+	*::-webkit-scrollbar-thumb {
+		border-radius: 10px;
+		background-color: #6b6b6b;
+	}
+
+	html {
+		@apply m-0 overflow-y-auto overflow-x-hidden p-0;
+		font-size: 100%;
+		scroll-behavior: auto;
+	}
+
+	body {
+		@apply relative m-0 overflow-x-hidden bg-white p-0 font-body text-base font-normal text-body antialiased;
+	}
+
+	p {
+		@apply font-body text-base font-normal text-body;
+
+		&.lead {
+			@apply text-lg;
+			@screen md {
+				font-size: 18px;
+			}
+		}
+	}
+	small {
+		@apply text-sm font-normal;
+	}
+	strong {
+		@apply font-medium;
+	}
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	p,
+	blockquote,
+	address,
+	pre,
+	menu,
+	ol,
+	ul,
+	table,
+	dl,
+	hr {
+		@apply m-0 mb-3;
+
+		&:last-child {
+			@apply mb-0;
+		}
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		@apply font-display font-bold text-heading;
+		word-break: break-word;
+	}
+
+	h1 {
+		@apply text-5xl font-bold;
+		font-size: 40px;
+		@screen md {
+			@apply text-5xl;
+		}
+	}
+
+	h2 {
+		@apply text-4xl font-bold;
+		font-size: 32px;
+		@screen md {
+			@apply text-4xl;
+		}
+	}
+
+	h3 {
+		@apply text-3xl font-semibold;
+	}
+
+	h4 {
+		@apply text-2xl font-semibold;
+	}
+
+	h5 {
+		@apply text-lg font-medium;
+	}
+
+	h6 {
+		@apply text-sm font-medium;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		& a {
+			@apply text-inherit;
+		}
+	}
+
+	a {
+		@apply cursor-pointer no-underline transition-all duration-300;
+		&:focus,
+		&:active {
+			@apply no-underline;
+		}
+	}
+
+	p {
+		a {
+			@apply text-inherit underline hover:text-primary;
+		}
+	}
+
+	ol,
+	ul {
+		@apply pl-[18px];
+	}
+	ul {
+		@apply list-disc;
+	}
+	ol {
+		@apply list-decimal;
+	}
+	dl {
+		dt {
+			@apply font-medium;
+		}
+	}
+	blockquote {
+		@apply rounded border-l-4 border-primary bg-grey-lighten p-4 text-xl;
+		p {
+			@apply text-xl;
+			font-size: 18px;
+			&::before {
+				content: open-quote;
+			}
+			&::after {
+				content: close-quote;
+			}
+
+			@screen md {
+				@apply text-xl;
+			}
+		}
+	}
+	code {
+		@apply rounded bg-grey-lighten px-1 font-mono text-heading;
+	}
+	// pre {
+	// 	@apply max-h-[500px] max-w-full overflow-x-auto overflow-y-auto rounded bg-grey-lighten p-4;
+	// }
+	table {
+		@apply w-full table-auto border-collapse border border-white border-opacity-10;
+		th {
+			@apply bg-grey text-heading;
+		}
+		th,
+		td {
+			@apply border border-white border-opacity-10 p-2;
+		}
+	}
+	hr {
+		@apply border-t border-white border-opacity-10;
+	}
+
+	// Form Styles
+	input,
+	button,
+	select,
+	textarea {
+		@apply min-h-[45px] w-full rounded border border-white border-opacity-10 bg-grey bg-opacity-10 px-4 text-body transition placeholder:text-body placeholder:text-opacity-50;
+		&:focus,
+		&:active {
+			@apply border-primary outline-none;
+		}
+	}
+	textarea {
+		@apply min-h-[150px] py-2.5 align-middle;
+	}
+	button,
+	[type="button"],
+	[type="reset"],
+	[type="submit"] {
+		-webkit-appearance: button;
+	}
+	label {
+		@apply mb-1.5 block text-sm font-normal text-heading;
+	}
+
+	input:not([type="checkbox"], [type="radio"]),
+	select,
+	button {
+		@apply h-10 px-4;
+	}
+
+	input[type="radio"] {
+		@apply hidden;
+
+		& ~ label,
+		& + label {
+			@apply relative mb-0 inline pl-7;
+
+			&::before,
+			&::after {
+				content: "";
+				@apply absolute left-0 -top-0.5 h-5 w-5 cursor-pointer rounded-full bg-transparent transition-all;
+			}
+
+			&::before {
+				@apply border-3 border-white border-opacity-10;
+			}
+
+			&::after {
+				@apply animate-none border border-transparent;
+			}
+		}
+		&:checked {
+			& ~ label {
+				&::before {
+					@apply border-6 border-primary bg-white;
+				}
+				&::after {
+					@apply animate-ping border-primary;
+					animation-iteration-count: 1;
+				}
+			}
+		}
+	}
+
+	input[type="checkbox"] {
+		@apply hidden;
+
+		& ~ label,
+		& + label {
+			@apply relative mb-0 inline pl-11;
+
+			&::before,
+			&::after {
+				content: "";
+				@apply absolute left-0 -top-0.5 cursor-pointer rounded-full bg-transparent transition-all;
+			}
+
+			&::before {
+				@apply h-5 w-9 bg-white bg-opacity-10;
+			}
+
+			&::after {
+				@apply left-0.5 top-0 h-4 w-4 bg-white;
+			}
+		}
+		&:checked {
+			& ~ label {
+				&::before {
+					@apply bg-primary;
+				}
+				&::after {
+					@apply left-[18px] bg-white;
+				}
+			}
+		}
+	}
+
+	input[type="file"] {
+		@apply block w-full cursor-pointer border-none px-0 text-sm file:mr-4
+        file:h-10 file:cursor-pointer file:rounded-full file:border-0
+        file:bg-primary file:bg-opacity-10
+        file:py-2 file:px-4
+        file:text-sm file:font-medium file:text-primary;
+	}
+}
+
+// Custom components
+@layer components {
+	.btn {
+		@apply relative inline-block h-auto min-h-0 w-auto cursor-pointer overflow-hidden rounded border-0 bg-primary px-5 py-2.5 text-center align-middle text-sm font-medium uppercase tracking-wide text-grey transition-all duration-500;
+		& > * {
+			@apply relative z-10 text-inherit transition-none;
+		}
+
+		&:active {
+			@apply transition duration-500;
+		}
+
+		&::after {
+			content: "";
+			@apply absolute left-0 top-0 inline-block h-full w-full origin-bottom scale-y-0 transform bg-white transition-transform duration-500;
+		}
+		&:hover {
+			&::after {
+				@apply origin-top scale-y-100;
+			}
+		}
+	}
+	.btn-transparent {
+		@apply bg-primary bg-opacity-10 text-primary hover:text-grey;
+	}
+	.btn-large {
+		@apply py-2.5 px-5 text-base md:py-3 md:px-7 md:text-lg;
+	}
+	.btn-small {
+		@apply py-1.5 px-4;
+	}
+
+	.btn-readmore {
+		@apply bg-transparent p-0 text-sm font-normal tracking-widest text-primary;
+		&::after {
+			@apply hidden;
+		}
+		&::before {
+			content: "";
+			@apply mr-1 inline-block h-px w-5 bg-primary transition-all duration-500;
+		}
+		&:hover {
+			&::before {
+				@apply w-6;
+			}
+		}
+	}
+}
+
+// Utilities
+@layer utilities {
+	.clearfix {
+		&::after {
+			content: "";
+			clear: both;
+			@apply block;
+		}
+	}
+	.styledlist {
+		@apply list-none pl-0;
+		li {
+			@apply relative mb-1 pl-6 last:mb-0;
+			&::before {
+				content: "";
+				@apply absolute top-2 left-0 h-2 w-2 rounded-full bg-primary;
+			}
+		}
+	}
+	.container {
+		@apply px-4 2xl:max-w-[1350px];
+	}
+	.text-outline {
+		-webkit-text-stroke: 1px theme("colors.primary");
+	}
+	.fiximage {
+		& > span {
+			@apply align-middle;
+		}
+	}
+	.card {
+		@apply rounded-lg border border-white border-opacity-10 bg-grey-lighten backdrop-blur-md backdrop-filter;
+	}
+	.hovercard {
+		@apply transition duration-500 hover:-translate-y-1.5;
+	}
+	.hover-scale {
+		@apply overflow-hidden;
+		img {
+			@apply scale-100 transform transition-transform duration-500;
+		}
+		&:hover {
+			img {
+				@apply scale-110;
+			}
+		}
+	}
+	.title-text {
+		@apply relative pb-3;
+		&::after {
+			content: "";
+			@apply absolute left-0 top-auto bottom-0 h-0.5 w-14 rounded-full bg-primary;
+		}
+	}
+}
+
+// Animations
+@keyframes titleDeviderAnimation {
+	0% {
+		transform: translateX(-6px);
+	}
+	100% {
+		transform: translateX(128px);
+	}
+}
+@keyframes ledgerLeftRight {
+	0% {
+		left: -40px;
+	}
+	100% {
+		left: 100%;
+	}
+}
+@keyframes ledgerRightLeft {
+	0% {
+		right: -40px;
+	}
+	100% {
+		right: 100%;
+	}
+}
+@keyframes ledgerTopBottom {
+	0% {
+		top: -40px;
+	}
+	100% {
+		top: 100%;
+	}
+}
+@keyframes ledgerBottomTop {
+	0% {
+		bottom: -40px;
+	}
+	100% {
+		bottom: 100%;
+	}
+}
+@keyframes slideDown {
+	0% {
+		transform: translateY(-100%);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+
+// Swiper Slider
+.swiper-holder {
+	position: relative;
+	margin-bottom: 68px;
+}
+.swiper {
+	&-button-next,
+	&-button-prev {
+		@apply z-10 inline-block h-10 min-h-0 w-10 rounded-full border-2 border-white border-opacity-20 p-0 text-center text-white transition duration-300;
+		top: calc(100% + 50px);
+		font-size: 0;
+		backface-visibility: hidden;
+
+		&::after {
+			@apply text-sm leading-9 text-white transition duration-300;
+		}
+
+		&:hover {
+			@apply border-primary text-primary;
+			&::after {
+				@apply text-primary;
+			}
+		}
+	}
+	&-button-prev {
+		left: auto;
+		right: calc(50% + 10px);
+	}
+	&-button-next {
+		right: auto;
+		left: calc(50% + 10px);
+	}
+}
+
+@screen 2xl {
+	.swiper-holder {
+		margin-bottom: 0;
+	}
+	.swiper {
+		&-button-next,
+		&-button-prev {
+			top: 50%;
+		}
+		&-button-prev {
+			right: calc(100% + 20px);
+		}
+		&-button-next {
+			left: calc(100% + 20px);
+		}
+	}
+}
+
+// Nprogress
+#nprogress .bar {
+	background: theme("colors.primary");
+}
+#nprogress .spinner-icon {
+	border-top-color: theme("colors.primary");
+	border-left-color: theme("colors.primary");
+}
+
+// Header & Menus
+.header-nav,
+.header-mobilenav,
+.sidenav-mobilmenu {
+	ul {
+		counter-reset: section;
+		li {
+			a {
+				&::before {
+					counter-increment: section;
+					content: counter(section, decimal-leading-zero) ".";
+					@apply pr-1;
+				}
+			}
+		}
+	}
+}
+
+.fullscreen-menulist {
+	counter-reset: section;
+	li {
+		a {
+			span {
+				&::before {
+					counter-increment: section;
+					content: counter(section, decimal-leading-zero) ".";
+					@apply pb-3 text-primary;
+				}
+			}
+		}
+	}
+}
+
+// Herosection & Breadcrumb
+.herosection-bg,
+.breadcrumb-bg {
+	background-image: url("/images/herosection-bg.png");
+	background-repeat: repeat;
+	background-size: initial;
+	background-position: 0 13px;
+}
+
+.herosection-imageanimation {
+	animation-duration: 2s;
+}
+
+.breadcrumb {
+	ul {
+		li {
+			&::before {
+				content: "";
+				@apply mr-2 inline-block h-2 w-2 rounded-full bg-primary;
+			}
+		}
+	}
+}
+
+// Circle Progress
+.circleprogress {
+	.circle {
+		fill: none;
+		stroke: theme("colors.primary");
+		@apply -rotate-90 transform;
+	}
+	.circlebg {
+		stroke: theme("colors.primary");
+		opacity: 0.2;
+	}
+}
+
+// Service
+.services-wrapper {
+	counter-reset: section;
+	.service {
+		&::before {
+			counter-increment: section;
+			content: counter(section, decimal-leading-zero);
+			@apply pointer-events-none absolute left-auto right-3 top-3 text-5xl font-bold opacity-10;
+		}
+		&:hover .service-icon svg {
+			@apply animate-ping;
+			animation-iteration-count: 1;
+			animation-direction: alternate-reverse;
+			animation-timing-function: linear;
+			animation-duration: 300ms;
+		}
+	}
+}
+
+// Blurred variation
+.blurredBg {
+	position: relative;
+
+	&::before {
+		content: "";
+		position: fixed;
+		height: 100%;
+		width: 100%;
+		left: 0;
+		top: 0;
+		background-image: url("/images/body-bg.png");
+		background-size: cover;
+	}
+
+	.card {
+		@apply bg-white bg-opacity-5;
+	}
+}
+
+// Client
+.client {
+	img {
+		filter: grayscale(1);
+	}
+
+	&:hover {
+		img {
+			filter: grayscale(0);
+		}
+	}
+}
+
+// Fullscreen menu
+.fullscreen-menu {
+	width: calc(100vw - 80px);
+}
+
+.copyrightvertical {
+	writing-mode: vertical-rl;
+}
+
+.fullmenuitem {
+	writing-mode: vertical-rl;
+}
