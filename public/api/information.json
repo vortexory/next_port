@@ -1,0 +1,30 @@
+{
+    "firstName": "Dimitrijie",
+    "lastName": "Vulovic",
+    "fullName": "Dimitrijie Vulovic",
+    "thumbImage": "/images/formal-image.png",
+    "largeImage": "/images/about-image.jpg",
+    "bio": "As a Blockchain, AI, and Webflow expert with over 8 years of experience in developing beautiful and functional websites and web apps, I am committed to providing my clients with the highest quality work with my skills on GPT-4, LlamaIndex, OpenAI, dApps, DEX, Defi and websites modern frontend and backend frameworks.",
+    "age": 27,
+    "nationality": "Serbian",
+    "languages": [
+        "English",
+        "Serbian"
+    ],
+    "address": "9. januara 41, Zrenjanin, VO 23000, Serbia",
+    "freelance": "Available",
+    "socialAddress": {
+        "upwork": "https://www.upwork.com/freelancers/~01ce7ee2e06fd3f106",
+        "twitter": "https://twitter.com/Dimitrijevulovic",
+        "facebook": "https://facebook.com/Dimitrijevulovic",
+        "github": "https://github.com/Dimitrijevulovic",
+        "linkedin": "https://www.linkedin.com/in/dimitrije-vulovi%C4%87-6501b7308/",
+        "gmail": "mailto:dimitrijevulovicwebflow@gmail.com"
+    },
+    "phoneNumbers": [
+        "+381 695115121"
+    ],
+    "emailAddress": [
+        "dimitrijevulovicwebflow@gmail.com"
+    ]
+}

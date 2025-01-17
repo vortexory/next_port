@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "title": "Front-end Developer",
+        "meta": "Codewell.",
+        "text": [
+            "Communicated with product managers to translate project requirements and business objectives into polished user interfaces.",
+            "Drove UI requirements through to web implementations, complete with accurate sizing estimates and task breakdowns."
+        ],
+        "year": "2018 - 2020"
+    },
+    {
+        "id": 2,
+        "title": "WebFlow Developer",
+        "meta": "RADAK Solutions.",
+        "text": [
+            "Developed websites and web applications using the Webflow platform, with a focus on aesthetics, functionality, and user experience.",
+            "Collaborated with diverse clients to understand their requirements and goals, tailoring projects to their needs.",
+            "Optimized and enhanced existing websites to improve loading speed, SEO, and accessibility.",
+            "Integrated various external APIs and developed custom solutions to meet client-specific needs.",
+            "Worked as part of a team with designers and other developers to ensure code and design consistency and quality."
+        ],
+        "year": "2020 - 2022"
+    },
+    {
+        "id": 3,
+        "title": "FullStack Blockchain | AI Developer",
+        "meta": "Unique.vc.",
+        "text": [
+            "Technical management of national and European research and development projects.",
+            "I am committed to providing my clients with the highest quality work with my skills on GPT-4, LlamaIndex, OpenAI, dApps, DEX, Defi and websites modern frontend and backend frameworks."
+        ],
+        "year": "2022 - 2023"
+    }
+]

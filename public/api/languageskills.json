@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "title": "Html & Css",
+        "percentage": 95
+    },
+    {
+        "id": 2,
+        "title": "Javascript",
+        "percentage": 95
+    },
+    {
+        "id": 3,
+        "title": "WebFlow",
+        "percentage": 95
+    },
+    {
+        "id": 4,
+        "title": "React Js",
+        "percentage": 90
+    },
+    {
+        "id": 5,
+        "title": "Node Js",
+        "percentage": 90
+    },
+    {
+        "id": 6,
+        "title": "ASP.NET",
+        "percentage": 85
+    },
+    {
+        "id": 7,
+        "title": "React Native",
+        "percentage": 85
+    },
+    {
+        "id": 8,
+        "title": "Blockchain",
+        "percentage": 80
+    },
+    {
+        "id": 9,
+        "title": "AI",
+        "percentage": 75
+    },
+    {
+        "id": 10,
+        "title": "XD",
+        "percentage": 85
+    },
+    {
+        "id": 11,
+        "title": "Illustrator",
+        "percentage": 80
+    },
+    {
+        "id": 12,
+        "title": "Figma",
+        "percentage": 90
+    }
+]
